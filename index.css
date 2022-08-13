@@ -1,16 +1,23 @@
 body {
-    background-color: rgb(231, 216, 177);
+    background-color: #f6f0e6;
+    margin: 0;
 }
 
 .Main {
-    flex: auto;
-    background-color: rgb(231, 216, 177);
+    background-color: #f6f0e6;
+    display: flex;
+    flex-direction: column;
 }
 
 .Head {
     height: 25pt;
     width: 100%;
     background-color: #5e95a1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-items: center;
 }
 
 .Head2 {
@@ -25,17 +32,34 @@ body {
 }
 
 .Body2 {
-    background-color: rgb(231, 216, 177);
+    background-color: #f6f0e6;
+    height: 500pt;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
-.Head h1 {
+.UserBox {
+    background-color: rgb(255, 255, 255);
+    width: 150pt;
+    height: 150pt;
+    margin: 10pt;
+    padding: 10pt;
+}
+
+.Head a {
     color: rgb(255, 255, 255);
     font-size: 15pt;
+    margin: 10pt;
+    cursor: pointer;
 }
 
 .Body1 h1 {
     color: rgb(255, 255, 255);
     font-size: 35pt;
+    padding: 20pt;
 }
 
 .Body2 h1 {
