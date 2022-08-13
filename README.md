@@ -1,2 +1,3 @@
 # hanusvalenta.neocities.org
-my neocities page
+
+just a small web to support neocities.org
