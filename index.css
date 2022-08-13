@@ -36,17 +36,27 @@ body {
     height: 500pt;
     width: auto;
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
     flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .UserBox {
     background-color: rgb(255, 255, 255);
     width: 150pt;
-    height: 150pt;
+    height: 120pt;
     margin: 10pt;
     padding: 10pt;
+}
+
+.UserBox img {
+    width: auto;
+    height: 70%;
+}
+
+.UserBox p {
+    color: #a5424b;
 }
 
 .Head a {
